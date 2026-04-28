@@ -26,7 +26,7 @@ def load_config(filepath):
         else:
             print(f"[警告]不支持的文件格式:{filepath}")
             return {}
-
+ 
 if __name__ == "__main__":
     sample_json = {"exp_name":"yaml_exp" , "learing_rat":0.1, "epoch":10}
     with open("sample_config.json","w", encoding ="utf-8" ) as f:
