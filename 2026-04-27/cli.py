@@ -10,6 +10,6 @@ def main():
 
     for i in range(args.repeat):
         print(f"你好,{args.name}!")
- 
+
 if __name__ =="__main__":     
     main()
