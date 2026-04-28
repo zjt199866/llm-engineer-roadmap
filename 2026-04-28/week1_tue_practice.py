@@ -79,7 +79,6 @@ def has_intersection(a, b):
     else:
         return False
 
-
 def unique_elements(list):
     result = []
     for item in list:
