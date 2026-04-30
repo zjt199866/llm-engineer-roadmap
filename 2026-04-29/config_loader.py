@@ -28,7 +28,7 @@ def load_config(filepath):
             return {}
  
 if __name__ == "__main__":
-    sample_json = {"exp_name":"yaml_exp" , "learing_rat":0.1, "epoch":10}
+    sample_json = {"exp_name":"yaml_exp" , "learning_rate":0.1, "epoch":10}
     with open("sample_config.json","w", encoding ="utf-8" ) as f:
         json.dump(sample_json , f, indent=2)
     cfg = load_config("sample_config.json")
@@ -39,3 +39,4 @@ if __name__ == "__main__":
         yaml.dump(sample_yaml, f )
     cfg2= load_config("sample_config.yaml")
     print("加载 YAML配置", cfg2)
+
